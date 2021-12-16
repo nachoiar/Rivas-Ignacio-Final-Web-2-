@@ -1,0 +1,23 @@
+4 - Api Rest
+a) Se deben realizar cambios en el route, mejor dicho crear un route nuevo, y modiciando el archivo httacces para que si en nuestra url 
+se encuentra la palabra "api" la navegacion tomo otro camino. Tambien vamos a necesitar el uso de JS para los metodos delete,post, o put ya 
+que es necesario interactuar con la web para llevarlos a cabo.
+
+Como cliente quiero poder ver mis datos personales     
+$router->addRoute('cliente/:ID', 'GET', 'ClientesApiController ', 'getDatos');
+
+Como cliente quiero poder modificar mis datos personales
+$router->addRoute('cliente/:ID', 'PUT', ClientesApiController ', 'updateDatos');
+
+Como cliente quiero poder ver un listado de mis tarjetas
+$router->addRoute('tarjetas', 'GET','TarjetasApiController ', 'getTarjetas');
+
+Como cliente quiero poder el estado actual de mi cuenta
+$router->addRoute('cuenta',  'GET', 'ActividadesApiController ', 'getActividadDeCuenta');
+
+Como cliente quiero poder ver mi historial de actividades dado un intervalo de dos fechas
+$router->addRoute('cuenta', 'GET', 'ActividadesApiController ', 'getDatosPorFechas');
+
+Como cliente quiero poder dar de baja una tarjeta
+$router->addRoute('tarjeta/:ID, 'DELETE', 'TarjetasApiController ', 'deleteTarjeta');
+

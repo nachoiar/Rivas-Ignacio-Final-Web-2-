@@ -1,0 +1,13 @@
+Api Rest.
+a]
+
+i)Las ventajas de trabajar con Apis Rest, es que puedo utilizarlas en distintas plataformas, ya que es el cliente quien la utiliza dependiendo de su necesidad.
+
+ii) si nuestra api seria publica,  Los datos de los usuarios podrian ser usados por distintas empresas de publicidad.
+
+
+
+b] 
+i)SSR,  renderizacion del lado del servidor, en estos casos el servidor quien envia el sito completamente cargado.
+ii) son los codigos  de estado  de respuesta, estos nos muestran si una solicitud se ha completado.
+iii) Las sesiones de usuario se utilizan para varias cosas, entre ellas para verificar que un usuario este logueado en un sitio.
